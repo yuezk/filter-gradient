@@ -1,6 +1,6 @@
 {
   "name": "filter-gradient",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate filter gradients for the old IE.",
   "main": "index.js",
   "scripts": {
