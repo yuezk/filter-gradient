@@ -11,8 +11,8 @@ function test(input, output, done) {
 function getExpected(start, end, type) {
     return 'progid:DXImageTransform.Microsoft.Gradient(' +
             'GradientType=' + type +
-            ', StartColorStr="' + start +
-            '", EndColorStr="' + end + '")';
+            ', StartColorStr=\'' + start +
+            '\', EndColorStr=\'' + end + '\')';
 }
 
 describe('filter-gradient', function () {

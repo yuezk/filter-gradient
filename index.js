@@ -1,7 +1,7 @@
 var Color = require('color');
 
 /* eslint max-len:[0] */
-var GRADIENT_STR = 'progid:DXImageTransform.Microsoft.Gradient(GradientType=$type, StartColorStr="$start", EndColorStr="$end")';
+var GRADIENT_STR = 'progid:DXImageTransform.Microsoft.Gradient(GradientType=$type, StartColorStr=\'$start\', EndColorStr=\'$end\')';
 
 // 0.5 -> 80, 0.3 -> 4d
 function getAlphaHex(alpha) {
@@ -41,7 +41,7 @@ function filterGradient(start, end, type) {
 
     startColor = Color(start);
     endColor = Color(end);
-    type = type || 0; // 0: horizontal, 1: vertical
+    type = type || 0; // 0: vertical, 1: horizontal
 
     return getGradientString(startColor, endColor, type);
 }
