@@ -13,7 +13,7 @@ npm install filter-gradient --save
 
 ```js
 var filterGradient = require('filter-gradient');
-var gradient = filterGradient('#7abcff', '#4096ee');
+var gradient = filterGradient('#7abcff', '#4096ee'/*, 0 or 1*/);
 
 console.log(gradient);
 // progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FF7ABCFF', EndColorStr='#FF4096EE')
