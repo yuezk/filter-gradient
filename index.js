@@ -1,7 +1,8 @@
 var Color = require('color');
 
-/* eslint max-len:[0] */
+/* eslint-disable max-len */
 var GRADIENT_STR = 'progid:DXImageTransform.Microsoft.Gradient(GradientType=$type, StartColorStr=\'$start\', EndColorStr=\'$end\')';
+/* eslint-enable max-len */
 
 // 0.5 -> 80, 0.3 -> 4d
 function getAlphaHex(alpha) {
