@@ -18,7 +18,7 @@ function getColorStr(color) {
     var alpha = getAlphaHex(color.alpha());
     var colorStr = '#' + alpha + hex.slice(1);
 
-    return colorStr.toUpperCase();
+    return colorStr.toLowerCase();
 }
 
 function getGradientString(startColor, endColor, type) {
