@@ -1,7 +1,7 @@
 var Color = require('color');
 
 /* eslint-disable max-len */
-var GRADIENT_STR = 'progid:DXImageTransform.Microsoft.Gradient(GradientType=$type, StartColorStr=\'$start\', EndColorStr=\'$end\')';
+var GRADIENT_STR = 'progid:DXImageTransform.Microsoft.gradient(startColorstr=\'$start\', endColorstr=\'$end\', GradientType=$type)';
 /* eslint-enable max-len */
 
 // 0.5 -> 80, 0.3 -> 4d

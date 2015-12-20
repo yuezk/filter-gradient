@@ -9,10 +9,10 @@ function test(input, output, done) {
 }
 
 function getExpected(start, end, type) {
-    return 'progid:DXImageTransform.Microsoft.Gradient(' +
-            'GradientType=' + type +
-            ', StartColorStr=\'' + start +
-            '\', EndColorStr=\'' + end + '\')';
+    return 'progid:DXImageTransform.Microsoft.gradient(' +
+            'startColorstr=\'' + start +
+            '\', endColorstr=\'' + end +
+            '\', GradientType=' + type + ')';
 }
 
 describe('filter-gradient', function () {
