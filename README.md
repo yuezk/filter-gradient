@@ -16,7 +16,7 @@ var filterGradient = require('filter-gradient');
 var gradient = filterGradient('#7abcff', '#4096ee'/*, 0 or 1*/);
 
 console.log(gradient);
-// progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FF7ABCFF', EndColorStr='#FF4096EE')
+// progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7abcff', endColorstr='#ff4096ee', GradientType=0)
 ```
 
 ## API
@@ -43,6 +43,11 @@ Type `number`
 `0` or `1`. `0` is vertical gradient, `1` is horizontal gradient, default value is `0`;
 
 ## CHANGELOG
+
+### 2015-12-20
+
+- Make the filter string more regular
+- Change color string lower case
 
 ### 2015-11-11
 
